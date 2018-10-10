@@ -1,0 +1,56 @@
+#pragma once
+
+enum ObjType
+{
+	OBJ_BACKGROUND,
+	OBJ_PLAYER1,
+	OBJ_PLAYER2,
+	OBJ_PLAYER3,
+	OBJ_BULLET1,
+	OBJ_BULLET2,
+	OBJ_BULLET3,
+	OBJ_BLOCK1,
+	OBJ_BLOCK2,
+	OBJ_BLOCK3,
+	OBJ_BLOCK4,
+	OBJ_BLOCK5,
+	OBJ_ITEM1,
+	OBJ_ITEM2,
+	OBJ_NOITEM,
+	OBJ_END,
+};
+
+enum RenderType
+{
+	RENDER_BACKGROUND = 0,
+	RENDER_WORLD,
+	RENDER_EFFECT,
+	RENDER_UI,
+	RENDER_END,
+};
+
+enum SceneType
+{
+	SCENE_LOGIN,
+	SCENE_WAIT,
+	SCENE_STAGE,
+	SCENE_OVER,
+	SCENE_END,
+};
+
+enum PlayerNum
+{
+	Player1,
+	Player2,
+	Player3,
+	PlayerEnd
+};
+
+enum DataType
+{
+	DATA_START = 1,
+	DATA_PLAYER,
+	DATA_BULLET,
+	DATA_BLOCK,
+	DATA_EXIT
+};
